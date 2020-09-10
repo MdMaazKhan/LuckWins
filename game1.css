@@ -1,0 +1,47 @@
+#player1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    
+    
+    
+}
+#player2{
+    
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+   
+    
+}
+#rules{
+    font-size: 30px;
+    
+    letter-spacing: 2px;
+    font-weight: 150;
+    background-color: azure;
+    text-align: center;
+}
+#point1{
+        font-size: 100px;
+    text-indent: 60px;
+}
+#point2{
+        font-size: 100px;
+    text-indent: 60px;
+}
+body{
+    background-color: teal;
+    
+}
+.div{
+    background-color: azure;
+}
+.dis{
+    display: none;
+}
+.last{
+     display: none;
+}

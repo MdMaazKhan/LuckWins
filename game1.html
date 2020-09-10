@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           MY FIRST GAME.
+        </title>
+       
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="game1.css"> 
+      
+    </head>
+    
+    <body>
+       <div class="container" id="rules">
+           Rules:<br>
+           This is a two player game<br>
+           Even numbers add to the score<br>
+           While odd numbers don't<br>
+           Each player gets six chances<br>
+           First one to get 50 Wins
+           
+           
+           
+        </div>
+        
+        <div class="container">
+    
+            <div class="row mt-5">
+                <div class="col-sm-6 active">
+                    <div id="player1" class="div">
+                            PLAYER 1<br>
+                    score:<p id="p1" >0</p>
+                    </div>
+       
+                    <p id="point1" class="mx-5 mt-0 last" >0</p>
+                    <p class="btn btn-dark ml-5 dis" id="click1">
+                        GENERATE NUMBER
+                    </p>
+            
+                </div>
+                <div class="col-sm-6">
+                    <div id="player2" class="div">
+                        PLAYER 2<br>
+                        score:<p id="p2"  >0</p>
+                    </div>
+                        <p id="point2" class="mx-5 mt-0 last">0</p>
+                        <p class="btn btn-dark ml-5 dis" id="click2">
+                            GENERATE NUMBER
+                        </p>
+            
+                </div>
+            </div>
+    
+        </div>
+    
+    
+    
+    
+
+    <script src="game1.js"></script>
+    </body>
+</html>
+        
+        
