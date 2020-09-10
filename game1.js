@@ -43,7 +43,7 @@ document.querySelector("#click1").addEventListener("click",
         but1.classList.add("dis");
         t1=0;
      }
-    if(scoreOne>=100)
+    if(scoreOne>=50)
     {
         
        div1.textContent="WINNER!"; 
